@@ -5,7 +5,7 @@ def triple(n):
     return n*3
 
 def quadrupel(n):
-    return double(double(n))
+    return double(double(n)) # 2*2*n
 
 def funky(n, m):
     return triple(n) + quadrupel(m)
