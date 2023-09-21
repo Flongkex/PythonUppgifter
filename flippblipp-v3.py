@@ -11,9 +11,5 @@ def flippblipp(n):
 alive = True
 
 while alive:
-    answer = int(input("nästa: "))
-    if flippblipp(answer):
-        alive = False
-    else:
-        print(flippblipp(answer))
+
     
